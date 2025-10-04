@@ -6,6 +6,7 @@ import Home from "../components/Movies/Home.jsx";
 import Movieplayer from "../components/Movies/Movieplayer.jsx";
 import BlogsDetails from "../components/Blogs/BlogsDetails.jsx";
 import AboutUs from "../components/AboutUs/AboutUs.jsx";
+import UserHome from "../components/Dashboard/UserHome.jsx";
 import Outlet from "../Outlet/Outlet.jsx";
 import Layout from "../Outlet/Layout.jsx";
 
@@ -51,6 +52,10 @@ const Routers = createBrowserRouter([
       {
         path: "AboutUs",
         element: <AboutUs />,
+      },
+      {
+        path: "UserHome",
+        element: <UserHome />,
       },
     ],
   },

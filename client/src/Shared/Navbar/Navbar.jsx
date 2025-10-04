@@ -46,7 +46,7 @@ const Navbar = () => {
     <>
       <ul class="flex flex-col ">
         <li>
-          <Link to="/dashboard">
+          <Link to="Layout/UserHome">
             <h1 className="py-2 px-4 text-white rounded-lg font-medium hover:bg-gray-800 rounded cursor-pointer">
               Dashboard
             </h1>
@@ -78,7 +78,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-screen bg-black text-white z-50">
+      <nav className="w-screen  bg-black text-white z-50">
         <div className=" mx-auto px-1 md:px-6 lg:px-10">
           <div className="flex justify-between items-center py-4 ">
             <Link to={"/"} className="group flex items-center ">
