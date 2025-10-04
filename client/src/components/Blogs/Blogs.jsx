@@ -13,7 +13,7 @@ const AllUsers = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://farflix-server-auq8z9rls-farhads-projects-63b63f68.vercel.app/allblogs"
+          "https://farflix-16cs.vercel.app/allblogs"
         );
         setBlogs(response.data);
       } catch (error) {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosSecur = axios.create({
-  baseURL: `https://farflix-server-auq8z9rls-farhads-projects-63b63f68.vercel.app`,
+  baseURL: `https://farflix-16cs.vercel.app`,
 });
 const useAxiosSecur = () => {
   axiosSecur.interceptors.request.use(

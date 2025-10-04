@@ -23,7 +23,7 @@ const AuthProvider = ({ children }) => {
         console.log(currentUser.email);
         const userInfo = { email: currentUser.email };
         axios
-          .post("https://ecommerceserver-mocha.vercel.app/jwt", userInfo)
+          .post("https://farflix-16cs.vercel.app/jwt", userInfo)
           .then((res) => {
             console.log("JWT Response:", res.data.token);
             if (res.data.token) {

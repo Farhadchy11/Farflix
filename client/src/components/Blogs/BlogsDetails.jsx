@@ -9,7 +9,7 @@ const BlogsDetails = () => {
     const filteredBlog = async () => {
       try {
         const response = await fetch(
-          `https://farflix-server-auq8z9rls-farhads-projects-63b63f68.vercel.app//allblogs/${id}`
+          `https://farflix-16cs.vercel.app/allblogs/${id}`
         );
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
